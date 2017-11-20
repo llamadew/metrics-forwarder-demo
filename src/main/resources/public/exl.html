@@ -1,0 +1,34 @@
+
+
+mail: https://mail.google.com
+calendar: https://calendar.google.com
+WorkPlace: https://work-40260247.facebook.com/
+Temp AWS APP: http://52.37.30.83:4000/
+
+Validation Engine Doc: https://docs.google.com/document/d/1NF4gtTmrJpgpgdRTdgYwWcFg6Rcm5KQTvY9XbRfb0Aw/edit
+
+Java Course Code: https://github.com/EXLinc/java-course-questions-and-code
+
+Spring Boot Docker: https://spring.io/guides/gs/spring-boot-docker/
+
+Java gRPC Tut: https://www.youtube.com/watch?v=xpmFhTMqWhc
+
+Java gRPC example: https://github.com/saturnism/grpc-java-demos
+
+Java Junit Runner Code: 
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+public class TestRunner {
+   public static void main(String[] args) {
+      Result result = JUnitCore.runClasses(TestJunit.class);
+		
+      for (Failure failure : result.getFailures()) {
+         System.out.println(failure.toString());
+      }
+		
+      System.out.println(result.wasSuccessful());
+   }
+} 
